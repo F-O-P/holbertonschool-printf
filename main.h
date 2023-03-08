@@ -15,14 +15,26 @@
  * Description: get all dogs information
  */
 
-typedef struct dog
+typedef struct convert
 {
-	char *name;
-	float age;
-	char *owner;
-} dog_t;
+	char *sym;
+	int (*f)(va_list);
+} ;
 
 int _printf(const char *format, ...);
 int _putchar(char c);
+int _write_char(char);
+int print_char(va_list);
+int print_sting(va_list);
+int print_percent(va_list);
+int print_integer(va_list);
+int print_number(va_list);
+int print_binary(va_list);
+int print_reversed(va_list arg);
+int print_rot13(va_list);
+int unsigned_integer(va_list);
+int print_hex(va_list);
+int print_octal(va_list);
+int print_heX(va_list);
 
 #endif
