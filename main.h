@@ -15,12 +15,16 @@
  * Description: get all dogs information
  */
 
-typedef struct convert
+struct convert
 {
 	char *sym;
 	int (*f)(va_list);
-} ;
+};
+typedef struct convert_t;
 
+/* main functions */
+
+int parser(const char *format, conver_t f_list[], va list arg_list);
 int _printf(const char *format, ...);
 int _putchar(char c);
 int _write_char(char);
