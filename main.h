@@ -33,4 +33,7 @@ int print_integer(va_list);
 int print_number(va_list);
 int unsigned_integer(va_list);
 
+/* helper function */
+int print_unsgined_number(unsigned int);
+
 #endif
