@@ -63,7 +63,7 @@ int print_integer(va_list list)
  *@list: List of all the arguments 
  *Return: a count of the numbers 
  */
-int unsigned_interger(va_list list)
+int unsigned_integer(va_list list)
 {
 	unsigned int num;
 
