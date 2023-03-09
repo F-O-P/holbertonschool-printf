@@ -42,9 +42,10 @@ int print_string(va_list list)
  * Return: Always 0
  */
 
-int print_percent(va_list)
+int print_percent(__attribute__((unused))va_list list)
 {
-	
+	_write_char('%');
+	return (1);
 }
 
 /**
