@@ -22,7 +22,7 @@ typedef struct convert_t;
 
 /* main functions */
 
-int parser(const char *format, conver_t f_list[], va_list arg_list);
+int parser(const char *format, convert_t f_list[], va_list arg_list);
 int _printf(const char *format, ...);
 int _putchar(char );
 int print_char(va_list);
