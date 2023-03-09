@@ -13,12 +13,11 @@
  * @f: The function associated 
  */
 
-struct convert
+typedef struct convert
 {
 	char *sym;
 	int (*f)(va_list);
-};
-typedef struct convert_t;
+} convert_t;
 
 /* main functions */
 
