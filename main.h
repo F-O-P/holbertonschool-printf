@@ -7,12 +7,10 @@
 #include <stdlib.h>
 
 /**
- * struct dog - dogs info
- * @name: get dog name
- * @age: get dogs age
- * @owner: get dogs owner name
+ * struct convert- defins a structure for symbols and functions 
  *
- * Description: get all dogs information
+ * @sym: the operator
+ * @f: The function associated 
  */
 
 struct convert
@@ -24,9 +22,9 @@ typedef struct convert_t;
 
 /* main functions */
 
-int parser(const char *format, conver_t f_list[], va list arg_list);
+int parser(const char *format, conver_t f_list[], va_list arg_list);
 int _printf(const char *format, ...);
-int _putchar(char c);
+int _putchar(char );
 int print_char(va_list);
 int print_sting(va_list);
 int print_percent(va_list);
