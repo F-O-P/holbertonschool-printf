@@ -77,4 +77,3 @@ int unsigned_integer(va_list list)
 
 	return (print_unsgined_number(num));
 }
-
