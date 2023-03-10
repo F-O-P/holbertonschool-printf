@@ -29,11 +29,11 @@ int _putchar(char);
 int print_char(va_list);
 int print_string(va_list);
 int print_percent(va_list);
-int print_integer(va_list);
 int print_number(va_list);
-int unsigned_integer(va_list);
+int print_d(va_list args);
+int print_i(va_list args);
 
 /* helper function */
-int print_unsgined_number(unsigned int);
+
 
 #endif
